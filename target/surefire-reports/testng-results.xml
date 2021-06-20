@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="77832" started-at="2021-06-18T10:19:24Z" finished-at="2021-06-18T10:20:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="77832" started-at="2021-06-18T10:19:24Z" finished-at="2021-06-18T10:20:41Z">
+      <class name="com.testclasses.HomePageTesting">
+        <test-method status="PASS" signature="setReport()[pri:0, instance:com.testclasses.HomePageTesting@7c16905e]" name="setReport" is-config="true" duration-ms="228" started-at="2021-06-18T15:49:23Z" finished-at="2021-06-18T15:49:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testclasses.HomePageTesting@7c16905e]" name="init" is-config="true" duration-ms="7464" started-at="2021-06-18T15:49:24Z" finished-at="2021-06-18T15:49:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="HomePageLoadTest()[pri:1, instance:com.testclasses.HomePageTesting@7c16905e]" name="HomePageLoadTest" duration-ms="36696" started-at="2021-06-18T15:49:31Z" finished-at="2021-06-18T15:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageLoadTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testclasses.HomePageTesting@7c16905e]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-06-18T15:50:08Z" finished-at="2021-06-18T15:50:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageLoadTest status=SUCCESS method=HomePageTesting.HomePageLoadTest()[pri:1, instance:com.testclasses.HomePageTesting@7c16905e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="generalVerificationHomePage()[pri:2, instance:com.testclasses.HomePageTesting@7c16905e]" name="generalVerificationHomePage" duration-ms="30744" started-at="2021-06-18T15:50:08Z" finished-at="2021-06-18T15:50:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generalVerificationHomePage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testclasses.HomePageTesting@7c16905e]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-06-18T15:50:38Z" finished-at="2021-06-18T15:50:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=generalVerificationHomePage status=SUCCESS method=HomePageTesting.generalVerificationHomePage()[pri:2, instance:com.testclasses.HomePageTesting@7c16905e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="FinishTesting()[pri:0, instance:com.testclasses.HomePageTesting@7c16905e]" name="FinishTesting" is-config="true" duration-ms="2724" started-at="2021-06-18T15:50:38Z" finished-at="2021-06-18T15:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinishTesting -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.testclasses.HomePageTesting@7c16905e]" name="endReport" is-config="true" duration-ms="193" started-at="2021-06-18T15:50:41Z" finished-at="2021-06-18T15:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="closeExtent()[pri:0, instance:com.testclasses.HomePageTesting@7c16905e]" name="closeExtent" is-config="true" duration-ms="67" started-at="2021-06-18T15:50:41Z" finished-at="2021-06-18T15:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtent -->
+      </class> <!-- com.testclasses.HomePageTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
